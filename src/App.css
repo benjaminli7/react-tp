@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*{
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  margin: 0 auto;
+}
+.container{
+  padding: 6%;
+}
+
+.box{
+  text-align:center;
+}
+
+.normalPrice{
+  font-size: 0.8rem;
+  text-decoration: line-through;
+}
+
+.salePrice{
+  color: green;
+  font-weight: bold;
+}
+
+hr{
+  width: 50%;
+  background-color: white;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+}
